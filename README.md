@@ -1,38 +1,72 @@
-# Hi, I'm yefuyou
+<p align="center">
+  <img src="assets/profile-hero.svg" width="100%" alt="yefuyou · AI & Agent Engineer · Building thoughtful AI agents, grounded in evidence and engineering" />
+</p>
 
-AI / Agent Engineer
+<p align="center">
+  <a href="#selected-work">Selected work</a>&nbsp; · &nbsp;<a href="#open-source-contributions">Open source</a>&nbsp; · &nbsp;<a href="#what-i-work-with">What I work with</a>
+</p>
 
-I build practical agent systems and AI-assisted developer tools, with a focus on observability, reliable tool integration, and evidence-driven product experiences.
+I build **AI agents and developer tools** with an interest in what happens *after* a model produces an answer: which tools ran, what evidence supports the result, and whether a failed run can be understood and recovered.
 
-## Selected Open Source Contributions
+My current focus is **agent runtime engineering**, **retrieval & temporal memory**, and **evaluation & observability**.
 
-### The-PR-Agent / pr-agent
+---
 
-**External contributor · Merged [PR #2589](https://github.com/The-PR-Agent/pr-agent/pull/2589)**
+## Selected work
 
-Improved review-coverage visibility for large PRs when token budgets exclude files, preserving the omitted-file list and surfacing it in the /review command.
+### 01 / [LinkLoom](https://github.com/yefuyou/linkloom) <sub>· AI Agent · Python</sub>
 
-### Alibaba / ANOLISA AgentSight
+**From meeting notes to decisions you can trace.**
 
-**External contributor · 5 merged PRs**
+A local-first agent for following decisions and action items **across meetings**. It keeps proposals separate from approved decisions, tracks what was true *when*, and grounds investigations in inspectable source evidence.
 
-- [PR #2334](https://github.com/alibaba/anolisa/pull/2334) — Bootstrapped Dashboard i18n for English and Simplified Chinese, including persisted locale selection, locale-safe detection, tests, and CI coverage.
-- [PR #2578](https://github.com/alibaba/anolisa/pull/2578) — Added LLM latency and throughput observability across capture, SQLite persistence, percentile aggregation, and API layers, including TTFT, TPS, TPOT, and E2E latency metrics.
-- [PR #2583](https://github.com/alibaba/anolisa/pull/2583) — Addressed latency-metrics Clippy and documentation follow-ups without changing metric semantics.
-- [PR #2586](https://github.com/alibaba/anolisa/pull/2586) — Added per-agent TTFT, TPS, TPOT, and E2E percentiles to Agent Health with independent loading/error states and regression coverage.
-- [PR #2590](https://github.com/alibaba/anolisa/pull/2590) — Made filtered latency metrics match agent names case-insensitively and aggregate casing variants safely.
+`Agent runtime` · `Retrieval` · `Temporal memory` · `Evidence grounding` · `Human review`
 
-### Qwen Code
+### 02 / [Real Raise](https://github.com/yefuyou/real-raise) <sub>· Web app · TypeScript</sub>
 
-**External contributor · Open / in review [PR #8953](https://github.com/QwenLM/qwen-code/pull/8953)**
+**A clearer way to think about money over time.**
 
-Improving Windows file-link handling in session exports and the VS Code companion.
+An income and purchasing-power calculator built with Cloudflare Workers. Deterministic financial calculations stay separate from optional AI explanations.
 
-## Selected Projects
+`TypeScript` · `Cloudflare Workers` · `AI-assisted explanation`
 
-- [Real Raise](https://github.com/yefuyou/real-raise) — A TypeScript / Cloudflare Workers income and purchasing-power calculator that keeps deterministic financial calculations separate from optional AI explanation.
-- [linkloom](https://github.com/yefuyou/linkloom) — A local-first, read-only-first assistant for Markdown and Obsidian vaults, with evidence paths and confirmation before changes.
+---
 
-## Current Focus
+## Open source contributions
 
-Building reliable agent experiences with explicit evidence, safe tool integration, and clear boundaries between automation and user control.
+### [The-PR-Agent / pr-agent](https://github.com/The-PR-Agent/pr-agent) <sub>· merged contribution</sub>
+
+Improved the visibility of files omitted during large-PR reviews due to token budgets, so reviewers can see what the model did **not** inspect. [PR #2589](https://github.com/The-PR-Agent/pr-agent/pull/2589)
+
+### [Alibaba / ANOLISA AgentSight](https://github.com/alibaba/anolisa) <sub>· 5 merged contributions</sub>
+
+Worked on **LLM and agent observability**: latency and throughput metrics (TTFT, TPS, TPOT, end-to-end latency), Agent Health breakdowns, internationalization, and follow-up fixes.
+
+<details>
+<summary>Explore the merged PRs</summary>
+
+- [#2334](https://github.com/alibaba/anolisa/pull/2334) · Dashboard localization (English / Simplified Chinese)
+- [#2578](https://github.com/alibaba/anolisa/pull/2578) · LLM latency and throughput metrics, from capture to APIs
+- [#2583](https://github.com/alibaba/anolisa/pull/2583) · Lint and documentation follow-ups
+- [#2586](https://github.com/alibaba/anolisa/pull/2586) · Per-agent latency percentiles in Agent Health
+- [#2590](https://github.com/alibaba/anolisa/pull/2590) · Case-insensitive agent-name aggregation
+
+</details>
+
+### [Qwen Code](https://github.com/QwenLM/qwen-code) <sub>· merged contribution</sub>
+
+Improving Windows file-link handling in session exports and the VS Code companion. [PR #8953](https://github.com/QwenLM/qwen-code/pull/8953)
+
+---
+
+## What I work with
+
+**Languages & platforms** &nbsp; `Python` `TypeScript` `Rust` `Cloudflare Workers`
+
+**Agent engineering** &nbsp; `Tool calling` `Agent runtime` `Retrieval & RAG` `Memory` `Evals` `Observability`
+
+**Engineering values** &nbsp; *Clear evidence. Predictable behavior. Useful tools.*
+
+<p align="center">
+  <sub>Built with a little purple, a little pixel art, and a lot of curiosity. ✳</sub>
+</p>
