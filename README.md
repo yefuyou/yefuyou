@@ -1,72 +1,52 @@
 <p align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="yefuyou · AI & Agent Engineer · Building thoughtful AI agents, grounded in evidence and engineering" />
+  <img src="assets/hello-loop.gif" width="100%" alt="Animated banner: hello, I'm yefuyou, with a pixel chick coding at a lavender laptop" />
 </p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a>&nbsp; · &nbsp;<a href="#open-source-contributions">Open source</a>&nbsp; · &nbsp;<a href="#what-i-work-with">What I work with</a>
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=600&size=20&duration=3300&pause=900&color=8A69BE&center=true&vCenter=true&width=750&lines=Building+reliable+AI+Agents+%26+developer+tools;Agent+Runtime+%E2%9C%A6+Evidence+%E2%9C%A6+Temporal+Memory;Open+source%2C+one+thoughtful+PR+at+a+time" alt="Animated typing introduction about reliable AI agents, agent runtime, evidence and open source" />
 </p>
 
-I build **AI agents and developer tools** with an interest in what happens *after* a model produces an answer: which tools ran, what evidence supports the result, and whether a failed run can be understood and recovered.
+<p align="center">
+  <a href="https://github.com/yefuyou/linkloom"><img src="assets/badge-linkloom.svg" alt="Featured project LinkLoom" /></a>
+  <a href="https://github.com/The-PR-Agent/pr-agent/pull/2589"><img src="assets/badge-pr-agent.svg" alt="PR-Agent merged contribution" /></a>
+  <a href="https://github.com/QwenLM/qwen-code/pull/8953"><img src="assets/badge-qwen.svg" alt="Qwen Code merged contribution" /></a>
+</p>
 
-My current focus is **agent runtime engineering**, **retrieval & temporal memory**, and **evaluation & observability**.
+### <img src="assets/twinkle.gif" height="28" alt="Twinkling pixel star" /> A little about me
 
----
+I build **AI agents that can explain what they did**, not just return a plausible answer. I'm especially interested in reliable tool use, temporal memory, grounded retrieval, observability, and the engineering details that make AI systems useful beyond a demo.
 
-## Selected work
+I enjoy turning complex agent ideas into **clear, inspectable products**.
 
-### 01 / [LinkLoom](https://github.com/yefuyou/linkloom) <sub>· AI Agent · Python</sub>
+### 🌱 Things I'm building
 
-**From meeting notes to decisions you can trace.**
-
-A local-first agent for following decisions and action items **across meetings**. It keeps proposals separate from approved decisions, tracks what was true *when*, and grounds investigations in inspectable source evidence.
-
-`Agent runtime` · `Retrieval` · `Temporal memory` · `Evidence grounding` · `Human review`
-
-### 02 / [Real Raise](https://github.com/yefuyou/real-raise) <sub>· Web app · TypeScript</sub>
-
-**A clearer way to think about money over time.**
-
-An income and purchasing-power calculator built with Cloudflare Workers. Deterministic financial calculations stay separate from optional AI explanations.
-
-`TypeScript` · `Cloudflare Workers` · `AI-assisted explanation`
-
----
-
-## Open source contributions
-
-### [The-PR-Agent / pr-agent](https://github.com/The-PR-Agent/pr-agent) <sub>· merged contribution</sub>
-
-Improved the visibility of files omitted during large-PR reviews due to token budgets, so reviewers can see what the model did **not** inspect. [PR #2589](https://github.com/The-PR-Agent/pr-agent/pull/2589)
-
-### [Alibaba / ANOLISA AgentSight](https://github.com/alibaba/anolisa) <sub>· 5 merged contributions</sub>
-
-Worked on **LLM and agent observability**: latency and throughput metrics (TTFT, TPS, TPOT, end-to-end latency), Agent Health breakdowns, internationalization, and follow-up fixes.
-
-<details>
-<summary>Explore the merged PRs</summary>
-
-- [#2334](https://github.com/alibaba/anolisa/pull/2334) · Dashboard localization (English / Simplified Chinese)
-- [#2578](https://github.com/alibaba/anolisa/pull/2578) · LLM latency and throughput metrics, from capture to APIs
-- [#2583](https://github.com/alibaba/anolisa/pull/2583) · Lint and documentation follow-ups
-- [#2586](https://github.com/alibaba/anolisa/pull/2586) · Per-agent latency percentiles in Agent Health
-- [#2590](https://github.com/alibaba/anolisa/pull/2590) · Case-insensitive agent-name aggregation
-
-</details>
-
-### [Qwen Code](https://github.com/QwenLM/qwen-code) <sub>· merged contribution</sub>
-
-Improving Windows file-link handling in session exports and the VS Code companion. [PR #8953](https://github.com/QwenLM/qwen-code/pull/8953)
-
----
-
-## What I work with
-
-**Languages & platforms** &nbsp; `Python` `TypeScript` `Rust` `Cloudflare Workers`
-
-**Agent engineering** &nbsp; `Tool calling` `Agent runtime` `Retrieval & RAG` `Memory` `Evals` `Observability`
-
-**Engineering values** &nbsp; *Clear evidence. Predictable behavior. Useful tools.*
+| Project | The idea |
+| :-- | :-- |
+| **[LinkLoom](https://github.com/yefuyou/linkloom)** <br><sub>Python · AI Agent · Temporal memory</sub> | **What did we decide, and when did it change?** An agent that follows decisions and tasks across meetings, connects their history, and keeps evidence and human review attached to important changes. |
+| **[Real Raise](https://github.com/yefuyou/real-raise)** <br><sub>TypeScript · Cloudflare Workers</sub> | **Make the numbers make sense.** An income and purchasing-power tool that keeps its calculations deterministic and AI explanations optional. |
 
 <p align="center">
-  <sub>Built with a little purple, a little pixel art, and a lot of curiosity. ✳</sub>
+  <img src="assets/decision-trail.gif" width="94%" alt="Animated illustration: a decision evolves from one meeting to the next and becomes the current approved decision" />
+</p>
+
+### 🌸 Little open-source wins
+
+| Project | Contribution |
+| :-- | :-- |
+| **[PR-Agent](https://github.com/The-PR-Agent/pr-agent)** | [Merged PR #2589](https://github.com/The-PR-Agent/pr-agent/pull/2589): made files excluded from large-PR reviews visible, so people know what the model did *not* inspect. |
+| **[Alibaba ANOLISA · AgentSight](https://github.com/alibaba/anolisa)** | 5 merged PRs on agent observability, including TTFT / TPS / TPOT, end-to-end latency, Agent Health percentiles and localization. [Explore contributions](https://github.com/alibaba/anolisa/pulls?q=is%3Apr+author%3Ayefuyou). |
+| **[Qwen Code](https://github.com/QwenLM/qwen-code)** | [Merged PR #8953](https://github.com/QwenLM/qwen-code/pull/8953): improved Windows file links in session exports and the VS Code companion. |
+
+### 🧁 My engineering palette
+
+<p align="center">
+  <img src="assets/engineering-stickers.svg" alt="Python, TypeScript, JavaScript, Git, GitHub and Linux" />
+</p>
+
+<p align="center">
+  <code>Agent Runtime</code> &nbsp; <code>Tool Integration</code> &nbsp; <code>RAG</code> &nbsp; <code>Temporal Memory</code> &nbsp; <code>Evaluation</code> &nbsp; <code>Observability</code>
+</p>
+
+<p align="center">
+  <img src="assets/footer-doodles.gif" width="92%" alt="Animated footer with twinkling pixel stars" />
 </p>
