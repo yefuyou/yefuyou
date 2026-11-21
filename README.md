@@ -24,7 +24,7 @@ My work spans agent runtimes, temporal memory, retrieval, and evaluation—from 
 
 Current and historical lookups use local temporal records. Bounded, read-only agents investigate the harder “why” questions with hybrid retrieval. A review workbench and read-only MCP tools bring the evidence into everyday use.
 
-<sub>Python · SQLite · Agent runtime · BM25 + vector retrieval · Temporal memory · MCP</sub>
+<sub>AI Agents · RAG · Tool Calling · Context Engineering · Agent Evaluation · Agent Observability</sub>
 
 <p align="center">
   <img src="assets/decision-trail.gif" width="94%" alt="Animated illustration: a decision evolves from one meeting to the next and becomes the current approved decision" />
