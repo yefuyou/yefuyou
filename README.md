@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hello-loop.gif" width="100%" alt="Animated banner: hello, I'm yefuyou, with a pixel chick coding at a lavender laptop" />
+  <a href="assets/hello-zhang-wenyue.png"><img src="assets/hello-zhang-wenyue.gif" width="100%" alt="HELLO! I'M ZHANG WENYUE — a pixel chick coding at a lavender laptop" /></a>
 </p>
 
 <p align="center">
@@ -14,28 +14,39 @@
 
 ### <img src="assets/twinkle.gif" height="28" alt="Twinkling pixel star" /> A little about me
 
-I build **AI agents that can explain what they did**, not just return a plausible answer. I'm especially interested in reliable tool use, temporal memory, grounded retrieval, observability, and the engineering details that make AI systems useful beyond a demo.
+I'm **Zhang Wenyue**. I build **AI agents and developer tools that keep decisions, tool calls, and evidence easy to inspect**.
 
-I enjoy turning complex agent ideas into **clear, inspectable products**.
+My work spans agent runtimes, temporal memory, retrieval, and evaluation—from following a decision across meetings to keeping review findings consistent across reruns. I like taking these systems all the way through to a usable interface.
 
-### 🌱 Things I'm building
+### 🌱 Building [LinkLoom](https://github.com/yefuyou/linkloom)
 
-| Project | The idea |
-| :-- | :-- |
-| **[LinkLoom](https://github.com/yefuyou/linkloom)** <br><sub>Python · AI Agent · Temporal memory</sub> | **What did we decide, and when did it change?** An agent that follows decisions and tasks across meetings, connects their history, and keeps evidence and human review attached to important changes. |
-| **[Real Raise](https://github.com/yefuyou/real-raise)** <br><sub>TypeScript · Cloudflare Workers</sub> | **Make the numbers make sense.** An income and purchasing-power tool that keeps its calculations deterministic and AI explanations optional. |
+**What is agreed now, who owns it, and what changed?** A local-first meeting memory tool that connects decisions, task handoffs, and deadlines to their source quotes. AI extracts drafts; human review makes them official.
+
+Current and historical lookups use local temporal records. Bounded, read-only agents investigate the harder “why” questions with hybrid retrieval. A review workbench and read-only MCP tools bring the evidence into everyday use.
+
+<sub>Python · SQLite · Agent runtime · BM25 + vector retrieval · Temporal memory · MCP</sub>
 
 <p align="center">
   <img src="assets/decision-trail.gif" width="94%" alt="Animated illustration: a decision evolves from one meeting to the next and becomes the current approved decision" />
 </p>
 
-### 🌸 Little open-source wins
+### 🌸 Open-source contributions
 
-| Project | Contribution |
-| :-- | :-- |
-| **[PR-Agent](https://github.com/The-PR-Agent/pr-agent)** | [Merged PR #2589](https://github.com/The-PR-Agent/pr-agent/pull/2589): made files excluded from large-PR reviews visible, so people know what the model did *not* inspect. |
-| **[Alibaba ANOLISA · AgentSight](https://github.com/alibaba/anolisa)** | 5 merged PRs on agent observability, including TTFT / TPS / TPOT, end-to-end latency, Agent Health percentiles and localization. [Explore contributions](https://github.com/alibaba/anolisa/pulls?q=is%3Apr+author%3Ayefuyou). |
-| **[Qwen Code](https://github.com/QwenLM/qwen-code)** | [Merged PR #8953](https://github.com/QwenLM/qwen-code/pull/8953): improved Windows file links in session exports and the VS Code companion. |
+**[PR-Agent](https://github.com/The-PR-Agent/pr-agent)** · merged
+
+Keep review findings consistent across reruns, preserving active issues when coverage is incomplete ([#2722](https://github.com/The-PR-Agent/pr-agent/pull/2722)). Also surfaced files excluded by token budgets ([#2589](https://github.com/The-PR-Agent/pr-agent/pull/2589)) and documented local Git workflows ([#2665](https://github.com/The-PR-Agent/pr-agent/pull/2665)).
+
+**[OpenDirector](https://github.com/ThinkFlowLab/OpenDirector)** · merged
+
+Persist the link from an Agent turn and tool call to its generation jobs, then expose job status, results, and errors in the trace UI—even after runtime traces are gone ([#374](https://github.com/ThinkFlowLab/OpenDirector/pull/374)).
+
+**[ANOLISA · AgentSight](https://github.com/agentic-os-org/ANOLISA)** · 5 merged PRs
+
+LLM latency and throughput metrics, per-agent percentiles, dashboard localization, and follow-up fixes: [#2334](https://github.com/agentic-os-org/ANOLISA/pull/2334), [#2578](https://github.com/agentic-os-org/ANOLISA/pull/2578), [#2583](https://github.com/agentic-os-org/ANOLISA/pull/2583), [#2586](https://github.com/agentic-os-org/ANOLISA/pull/2586), [#2590](https://github.com/agentic-os-org/ANOLISA/pull/2590).
+
+**[Qwen Code](https://github.com/QwenLM/qwen-code)** · merged
+
+Improved Windows file-link handling in session exports and the VS Code companion ([#8953](https://github.com/QwenLM/qwen-code/pull/8953)).
 
 ### 🧁 My engineering palette
 
@@ -44,7 +55,7 @@ I enjoy turning complex agent ideas into **clear, inspectable products**.
 </p>
 
 <p align="center">
-  <code>Agent Runtime</code> &nbsp; <code>Tool Integration</code> &nbsp; <code>RAG</code> &nbsp; <code>Temporal Memory</code> &nbsp; <code>Evaluation</code> &nbsp; <code>Observability</code>
+  <code>Agent Runtime</code> &nbsp; <code>MCP</code> &nbsp; <code>Hybrid Retrieval</code> &nbsp; <code>Temporal Memory</code> &nbsp; <code>Evaluation</code> &nbsp; <code>Observability</code>
 </p>
 
 <p align="center">
